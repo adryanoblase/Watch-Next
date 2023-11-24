@@ -18,27 +18,21 @@ It then calculates the similarity between the input description and each movie i
 Install spaCy:
 Make sure you have spaCy installed. If not, you can install it using:
 
-bash
+## bash
 Copy code
 pip install spacy
 Download spaCy Model:
 Download a spaCy English model. For example:
 
-bash
+## bash
 Copy code
 python -m spacy download en_core_web_sm
 Prepare Movie Descriptions:
 Edit the movies.txt file with a list of movie descriptions, each on a new line.
 
-Run the Script:
+# Run the Script:
 Execute the script, providing a movie description as an example. The script will output the title of the most similar movie from the provided list.
-
-python
-Copy code
 python watch-next.py
-Example
-python
-Copy code
 
 # Example usage
 planet_hulk_description = "Will he save their world or destroy it? When the Hulk becomes too dangerous for the Earth, the Illuminati trick Hulk into a shuttle and launch him into space to a planet where the Hulk can live in peace. Unfortunately, Hulk lands on the planet Sakaar where he is sold into slavery and trained as a gladiator."
