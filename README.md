@@ -19,15 +19,14 @@ Install spaCy:
 Make sure you have spaCy installed. If not, you can install it using:
 
 ## bash
-Copy code
 pip install spacy
 Download spaCy Model:
 Download a spaCy English model. For example:
 
 ## bash
-Copy code
 python -m spacy download en_core_web_sm
-Prepare Movie Descriptions:
+
+# Prepare Movie Descriptions:
 Edit the movies.txt file with a list of movie descriptions, each on a new line.
 
 # Run the Script:
